@@ -1,0 +1,17 @@
+{
+  "name": "Preserve",
+  "version": "1.0",
+  "description": "Keeping your bookmarks safe.",
+  "icons": { "128": "images/logo_128.png" },
+  "browser_action": {
+    "default_title": "Preserve this Page",
+    "default_icon": "images/icon-lock-only.png",
+    "default_popup": "bookmark.html"
+  },
+  "permissions": [
+    "tabs",
+    "http://preserve.io/*",
+    "http://discord.dev/*"
+  ],
+  "manifest_version": 2
+}
