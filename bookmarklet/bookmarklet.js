@@ -1,0 +1,1 @@
+javascript:u=location.href;t=document.title;void(open('http://preserve.io/bookmarks/new?simple=true&url='+encodeURIComponent(u)+'&title='+encodeURIComponent(t),'preserve.io','toolbar=no,scrollbars=yes,width=700,height=200'));
