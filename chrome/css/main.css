@@ -6,4 +6,5 @@ body {
 #new_bookmark_frame {
   width: 450px;
   height: 260px;
+  background: transparent url('../images/loading.gif') center center no-repeat;
 }
