@@ -1,8 +1,9 @@
 body {
-  width: 420px;
+  width: 450px;
+  height: 260px;
 }
 
 #new_bookmark_frame {
-  width: 420px;
-  height: 315px;
+  width: 450px;
+  height: 260px;
 }
