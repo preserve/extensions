@@ -1,4 +1,4 @@
-base_iframe_url = "http://preserve.io/bookmarks/new?simple=true"
+base_iframe_url = "https://preserve.io/bookmarks/new?simple=true"
 
 $ ->
   # Query the Chrome Tabs for one which is active in our current window.
@@ -8,5 +8,3 @@ $ ->
     tab = _.first tabs
     iframe_url = base_iframe_url + "&title=" + encodeURIComponent(tab.title) + "&url=" + encodeURIComponent(tab.url)
     $('#new_bookmark_frame').attr 'src', iframe_url
-    # $('input[name="url"]').val tab.url
-    # $('input[name="title"]').val tab.title

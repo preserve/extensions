@@ -2,7 +2,7 @@
 (function() {
   var base_iframe_url;
 
-  base_iframe_url = "http://preserve.io/bookmarks/new?simple=true";
+  base_iframe_url = "https://preserve.io/bookmarks/new?simple=true";
 
   $(function() {
     return chrome.tabs.query({
