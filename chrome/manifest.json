@@ -1,15 +1,22 @@
 {
   "name": "Preserve",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Keeping your bookmarks safe.",
-  "icons": { "128": "images/logo_128.png" },
+  "icons": { 
+    "16": "images/icon-lock-only.png",
+    "128": "images/logo_128.png" 
+  },
   "browser_action": {
     "default_title": "Preserve this Page",
     "default_icon": "images/icon-lock-only.png",
     "default_popup": "bookmark.html"
   },
+  "background": {
+    "scripts": ["js/background.js"]
+  },
   "permissions": [
     "tabs",
+    "contextMenus",
     "http://preserve.io/*"
   ],
   "manifest_version": 2
